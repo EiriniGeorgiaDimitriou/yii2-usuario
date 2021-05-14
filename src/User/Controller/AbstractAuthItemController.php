@@ -20,7 +20,6 @@ use Da\User\Traits\ContainerAwareTrait;
 use Da\User\Validator\AjaxRequestModelValidator;
 use Yii;
 use yii\filters\AccessControl;
-use yii\web\Controller;
 
 abstract class AbstractAuthItemController extends Controller
 {
